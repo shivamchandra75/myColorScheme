@@ -5,7 +5,7 @@ information:
 
 palette:
   fg: "#ABB2BF"
-  bg: "#1E1E1E"
+  bg: "#0f2b41"
 
   red: "#D16969"
   error_red: "#F44747"
@@ -40,7 +40,6 @@ palette:
   cursor_fg: "#515052"
   cursor_bg: "#AEAFAD"
   indentlinehighlight: "#707070"
-
 
 highlights:
   Normal: "fg bg"
@@ -121,7 +120,6 @@ highlights:
   WarningMsg: "yellow"
   WildMenu: "black blue"
   EndOfBuffer: "black"
-  
 
   # -- Start Treesitter --
   # Misc
@@ -232,7 +230,6 @@ highlights:
   markdownUrl: "cyan - u"
   # -- END Languages --
 
-
   # -- START CoC --
   CocExplorerIndentLine: "line_grey"
   CocExplorerBufferRoot: "cyan"
@@ -309,7 +306,6 @@ highlights:
   LspDiagnosticsVirtualTextInformation: "info_yellow"
   LspDiagnosticsVirtualTextHint: "vivid_blue"
 
-
   QuickScopePrimary: "#00C7DF - u"
   QuickScopeSecondary: "#eF5F70 - u"
 
@@ -354,8 +350,7 @@ highlights:
   # BufferTabpageFill: "gutter_fg_grey bg_inactive"
 
   CodiVirtualText: "#6395EC"
-  IndentBlanklineContextChar: "indentlinehighlight"                     
-
+  IndentBlanklineContextChar: "indentlinehighlight"
 
   # terminal: "bg red green yellow blue magenta cyan silver gray red green yellow blue magenta cyan fg"
   # -- Other junk you can define --
@@ -376,7 +371,7 @@ highlights:
   # MoreMsg: "green - br"
   # Question: "cyan - br"
   # Directory: "blue - b"
-   
+
   # VimWiki
   VimwikiHeader1: "orange - b"
   VimwikiHeader2: "green - b"
